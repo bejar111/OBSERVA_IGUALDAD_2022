@@ -1,0 +1,1073 @@
+<HTML>
+
+<HEAD>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="js/main.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119985144-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	 
+	  gtag('config', 'UA-119985144-1');
+	</script>
+	
+</HEAD>
+
+<BODY>
+	<header class="">
+		<div class="header-top">
+			<div class="container">
+				<div class="logo-jne">
+					<a href=""><img src="images/logo-blanco.png" alt="Logo JNE/ Observa Igualdad"></a>
+				</div>
+				<div class="header-top-idioma">
+					Español <span class="icon-down-arrow"></span>
+				</div>
+				<div class="header-top-info">
+					<div class="header-top-info-item">
+						<div class="icono-info-item">
+							<span class="icon-pin"></span>
+						</div>
+						<div class="texto-info-item">
+							<span class="titulo-info-item">Dirección</span>
+							Jr. Lampa 946 - Lima
+						</div>
+					</div>
+					<div class="header-top-info-item">
+						<div class="icono-info-item">
+							<span class="icon-email"></span>
+						</div>
+						<div class="texto-info-item">
+							<span class="titulo-info-item">Correo electrónico:</span>
+							igualdadpolitica@jne.gob.pe
+						</div>
+					</div>
+					<div class="header-top-info-item">
+						<div class="icono-info-item">
+							<span class="icon-phone-call"></span>
+						</div>
+						<div class="texto-info-item">
+							<span class="titulo-info-item">Teléfono</span>
+							(511) 311 1700 - Anexo: 2106
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="oi-container-nav">
+			<div class="container">
+				<div class="logo-web logo-responsive"><a href="index.html"><img src="images/logo-colores.png"
+							alt="Logo JNE/ Observa Igualdad"></a></div>
+				<nav class="oi-container-menu">
+
+					<ul class="oi-menu-web">
+						<div class="oi-menu-cerrar"><span class="icon-close"></span></div>
+						<li><a href="index.html">Observa igualdad</a></li>
+						<li><a href="#">PARTICIPACIÓN POLÍTICA <span class="icon-down-arrow"></span></a>
+							<ul class="oi-submenu">
+								<li> <a href="mujeres.html">Mujeres</a></li>
+								<li> <a href="jovenes.html">Jóvenes</a></li>
+								<li> <a href="poblacion.html">Pueblos indígenas</a></li>
+								<li> <a href="poblacionafro.html">Pueblo afroperuano</a></li>
+								<li> <a href="personas.html">Personas con discapacidad</a></li>
+								<li> <a href="lgtbi.html">LGTBI</a></li>
+							</ul>
+						</li>
+						<li><a href="planes-gobierno.html">PLANES DE GOBIERNO</a></li>
+						<li><a class="linkAcosoPolitico">ACOSO POLÍTICO</a></li>
+						<li class="oi-menu-active"><a href="recursos.html">RECURSOS</a></li>
+					</ul>
+				</nav>
+				<div class="oi-menu_bar">
+					<span class="icon-menu-symbol-of-three-parallel-lines"></span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</header>
+	<section class="oi-container-recursos">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="oi-bloque-info">
+						<div class="row-20">
+							<div class="titulo-check-recursos">
+								TIPOS DE MATERIAL
+							</div>
+
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Todos
+								<input type="checkbox" id="rbtTodos">
+								<span class="check"></span>
+							</label>
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Artículos
+								<input type="checkbox" id="rbtArtículos" value="rbtArtículos" name="Tipo_Material"
+									class="Tipo_Material">
+								<span class="check"></span>
+							</label>
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Boletines
+								<input type="checkbox" id="rbtBoletines" value="rbtBoletines" name="Tipo_Material">
+								<span class="check"></span>
+							</label>
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Videos
+								<input type="checkbox" id="rbtVideos" value="rbtVideos" name="Tipo_Material">
+								<span class="check"></span>
+							</label>
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Reportes
+								<input type="checkbox" id="dbtReportes" value="dbtReportes" name="Tipo_Material">
+								<span class="check"></span>
+							</label>
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Materiales educativos
+								<input type="checkbox" id="rbtMateriales_educativos" value="rbtMateriales_educativos"
+									name="Tipo_Material">
+								<span class="check"></span>
+							</label>
+						</div>
+						<div class="content-checkbox">
+							<label class="checkbox">Libros
+								<input type="checkbox" id="rbtLibros" value="rbtLibros" name="Tipo_Material">
+								<span class="check"></span>
+							</label>
+						</div>
+
+					</div>
+				</div>
+				<!--busqueda avanzanda -->
+				<div class="col-lg-9">
+					<div class="oi-bloque-info">
+						<div class="oi-titulo-bloque">Búsqueda avanzada</div>
+						<div class="oi-container-campos-busqueda">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="form-group">
+										<label for="">¿Qué buscas?</label>
+										<input type="text" class="form-control" id="txtFiltro"
+											placeholder="Ingrese un texto">
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<button id="btnBuscar" class="oi-btn float-right mt30" style="display: none;"><span
+								class="icon-lupa"></span>
+							Buscar</button>
+						<div class="clearfix"></div>
+					</div>
+					<div class="oi-container-resultado" id="results">
+						<div class="row">
+
+
+									<!--ACTUALIZACION DE RECURSOS -->
+
+
+
+							<div class="col-lg-4 col-sm-6 Reportes"  id="div_participacion_politica_igualdad_mujeres">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/Participación_política_de_las_mujeres_en_las_EG_2021.jpg" alt="" >
+									</div>
+									<div class="oi-titulo-documento"  id="participacion_politica_igualdad_mujeres">Participación política de las mujeres en las EG 2021</div>
+									<div class="center">
+										<a href="documentos/recursos/Reportes/Perfil-Electoral-N6-2021.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+						
+
+
+							<div class="col-lg-4 col-sm-6 Boletines" id="div_boletines_Agenda_por_la_igualdad">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/agenda_por_un_pais_con_igualdad_cover.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" 
+									id="boletines_Agenda_por_la_igualdad">Agendas por un país con igualdad</div>
+									<div class="center">
+										<a href="documentos/recursos/Boletines/Agenda_por_la_igualdad.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_PERSONAS_LGTBI_EN_LOS_PLANES_DE_GOBIERNO_ERM2018">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento"  id="PERSONAS_LGTBI_EN_LOS_PLANES_DE_GOBIERNO_ERM2018">
+									Personas LGTBI en los planes de gobierno ERM 2018</div>
+									<div class="center">
+										<a href="documentos/recursos/Reportes/PERSONAS_LGTBI_EN_LOS_PLANES_DE_GOBIERNO_ERM2018.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_pueblos-indigenas_ERM2018">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/pueblos-indigenas-erm.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="pueblos-indigenas_ERM2018">
+									Pueblos Indígenas ERM 2018</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/pueblos-indigenas_ERM2018.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_mujeres-candidatas-EMC-2019">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="mujeres-candidatas-EMC-2019">
+									Mujeres candidatas EMC 2019</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/mujeres-candidatas-EMC-2019.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" 
+							id="div_jovenes-erm-2018">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/jovenes-erm.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="jovenes-erm-2018">
+									Jóvenes en ERM 2018</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/jovenes-erm-2018.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_infografia_indigenas-ERM-2018">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="infografia_indigenas-ERM-2018">
+									Infografia indígenas ERM 2018</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/infografia_indigenas-ERM-2018.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_infografia-voto-personas-trans_JNE">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="infografia-voto-personas-trans_JNE">
+									Infografia Voto personas trans JNE</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/infografia-voto-personas-trans_JNE.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_elecciones-sin-discriminacion">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/elecciones-sin-discriminacion.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="elecciones-sin-discriminacion">
+									Elecciones sin discriminación</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/elecciones-sin-discriminacion.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_cartilla-paridad-alternancia">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/paridad-alternancia.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="cartilla-paridad-alternancia">
+									Cartilla paridad alternancia  EG 2021</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/cartilla-paridad-alternancia.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos" id="div_cartilla-acoso-eg-2021">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="cartilla-acoso-eg-2021">
+									Cartilla acoso político EG 2021</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/cartilla-acoso-eg-2021.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Libros" id="div_perfil-electoral-peru">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/perfil-electoral.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="perfil-electoral-peru">
+									Perfil electoral en el Perú</div>
+									<div class="center">
+										<a href="documentos/recursos/libros/perfil-electoral-peru.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Libros"  id="div_jovenes-partido-politico">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/jovenes-partido-politico.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="jovenes-partido-politico">
+									Jóvenes y partidos políticos</div>
+									<div class="center">
+										<a href="documentos/recursos/libros/jovenes-y-partidos-politicos.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+
+						<div class="col-lg-4 col-sm-6 Reportes"  id="div_Lineamientos_Garantizar_Participacion_Politica_LGBTI">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/Lineamientos-LGBTI.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento"  id="Lineamientos_Garantizar_Participacion_Politica_LGBTI">
+									Lineamientos Para Garantizar La Participación Política De Las Personas LGBTI 1</div>
+									<div class="center">
+										<a href="documentos/recursos/Reportes/LINEAMIENTOS PARA GARANTIZAR LA PARTICIPACIÓN POLÍTICA DE LAS PERSONAS LGBTI 1.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_acoso_politico_actualizado" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="acoso_politico_actualizado">Acoso político</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_testimonio_escuela_politica_indigena_1" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="testimonio_escuela_politica_indigena_1">Escuela de formación política indígena 1</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_testimonio_escuela_indigena_2" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="testimonio_escuela_indigena_2">Escuela de formación política indígena 2</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_testimonio_escuela_indigena_3" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="testimonio_escuela_indigena_3">Escuela de formación política indígena 3</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_Micro_video_observa_igualdad_1_jovenes" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="Micro_video_observa_igualdad_1_jovenes">Microvideo 1 observa igualdad jóvenes</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_micro_video_2_mujeres_observa" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="micro_video_2_mujeres_observa">Microvideo 2 observa igualdad mujeres</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+						
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_Microvideo_3_discapacidad_observa" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="Microvideo_3_discapacidad_observa">Microvideo 3 observa igualdad discapacidad</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+
+							
+
+							
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_video_2_pariedad_redes" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="video_2_pariedad_redes">Video 2 paridad redes</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_video_mi_primer_voto" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="video_mi_primer_voto">Mi primer voto</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_video_Inscripcion_cancelacion_OP" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>										
+									</div>
+									<div class="oi-titulo-documento"  id="video_Inscripcion_cancelacion_OP">
+									Inscripción y cancelación de organizaciones políticas</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+					
+							<div class="col-lg-4 col-sm-6 Videos"   id="div_video_Reformas_electorales_2015_2020" onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>
+									</div>
+									<div class="oi-titulo-documento"  id="video_Reformas_electorales_2015_2020">
+									Reformas electorales 2015 -2020</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Videos"  id="div_video_Sistema_electoral"  onClick="Ver_Video_Recurso_click(this.id)">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<div class="icono-video"><img src="images/btn-video.png" alt="" class="img100"></div>
+									</div>
+									<div class="oi-titulo-documento"  id="video_Sistema_electoral">
+									Sistema electoral</div>
+									<div class="center">
+										<a class="oi-btn"><span class="icon-descargar"></span> Ver Video</a>
+									</div>
+								</div>
+							</div>					
+
+							<!-- -->
+
+
+
+
+							<div class="col-lg-4 col-sm-6 Articulos" id="div_articulo_afro">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento Articulos" id="articulo_afro">
+										Afrodescendientes como candidatos políticos en el Perú</div>
+									<div class="center">
+										<a href="documentos/recursos/articulos/Afrodescendientes como candidatos políticos en el Perú-Una mirada a su participación en las elecciones generales del 2016.pdf"
+											target="_blank" class="oi-btn">
+											<span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Boletines" id="div_boletines_1_candidaturas">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="boletines_1_candidaturas">
+									1-CANDIDATURAS AFRO EG2016</div>
+									<div class="center">
+										<a href="documentos/recursos/boletines/1-CANDIDATURAS AFRO EG2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Boletines" id="div_boletines_2_candidaturas">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="boletines_2_candidaturas">
+									2-CANDIDATURAS LGTBI 2006_2016</div>
+									<div class="center">
+										<a href="documentos/recursos/boletines/2-CANDIDATURAS LGTBI 2006_2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Boletines" id="div_boletines_3_candidaturas">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="boletines_3_candidaturas">
+									3-CANDIDATURAS PERSONAS CON DISCAPACIDAD_ERM2014</div>
+									<div class="center">
+										<a href="documentos/recursos/boletines/3-CANDIDATURAS PERSONAS CON DISCAPACIDAD_ERM2014.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Boletines" id="div_boletines_4_candidaturas">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="boletines_4_candidaturas">
+									4-INFORME MEDIOS DE COMUNICACION EG2016</div>
+									<div class="center">
+										<a href="documentos/recursos/boletines/4-INFORME MEDIOS DE COMUNICACION EG2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Boletines" id="div_boletines_6_candidaturas">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="boletines_6_candidaturas">
+									6-VULNERACIÓN DERECHOS POLITICOS LGTBI EG2016</div>
+									<div class="center">
+										<a href="documentos/recursos/boletines/6-VULNERACIÓN DERECHOS POLITICOS LGTBI EG2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Libros" id="div_libro_acoso">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/acoso_politico.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="libro_acoso">1-Libro Acoso Político</div>
+									<div class="center">
+										<a href="documentos/recursos/libros/1-Libro Acoso Político.pdf" target="_blank"
+											class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 Libros" id="div_libro_LGTBI">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/igualdad_para_construir_democracia.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="libro_LGTBI">
+									2-Libro LGTBI_Igualdad para	construir democracia</div>
+									<div class="center">
+										<a href="documentos/recursos/libros/2-Libro LGTBI_ Igualdad para construir democracia.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Libros" id="div_libro_Participación">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/participacion_politica_mujeres_indigenas.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="libro_Participación">
+									3-Participación política de mujeres indígenas subnacional_Uchuypoma</div>
+									<div class="center">
+										<a href="documentos/recursos/libros/3-Participación política de mujeres indígenas subnacional_Uchuypoma.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Libros" id="div_libro_representacion">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/representacion_politica_indigena.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="libro_representacion">
+									4-Representación política indígena_Maritza Paredes</div>
+									<div class="center">
+										<a href="documentos/recursos/libros/4-Representación política indígena_Maritza Paredes.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Materiales_educativos"
+								id="div_materiales_Participación_politica_igualdad_jovenes">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/participacion_politica_jovenes_LGTBI.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento"
+										id="materiales_Participación_politica_igualdad_jovenes">
+								Participación política en igualdad-Jóvenes, LGTBI y personas con discapacidad</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/Participación política en igualdad-Jóvenes, LGTBI y personas con discapacidad.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Materiales_educativos"
+								id="div_materiales_Participación_politica_igualdad_mujeres">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/participacion_politica_igualdad_mujeres.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento"
+										id="materiales_Participación_politica_igualdad_mujeres">
+										Participación política en igualdad-Mujeres</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/Participación política en igualdad-Mujeres.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Materiales_educativos"
+								id="div_materiales_Participación_politica_igualdad_pueblos">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/participacion_politica_pueblos_indigenas.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento"
+										id="materiales_Participación_politica_igualdad_pueblos">
+									Participación política en igualdad-Pueblos indígenas y afroperuanos</div>
+									<div class="center">
+										<a href="documentos/recursos/Materiales_educativos/Participación política en igualdad-Pueblos indígenas y afroperuanos.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_afro_elecciones_2016">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="reportes_afro_elecciones_2016">
+										Afrodescendientes como candidatos políticos en el Perú-Una mirada a su participación en las elecciones generales del 2016</div>
+										<br>
+									<div class="center">
+										<a href="documentos/recursos/reportes/Afrodescendientes como candidatos políticos en el Perú-Una mirada a su participación en las elecciones generales del 2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_analisis_planes_gobierno">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/Analisis-de-los-planes-de-gobierno_ERM2018.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="reportes_analisis_planes_gobierno">
+								Análisis de los planes de gobierno_ERM2018</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/Análisis de los planes de gobierno_ERM2018.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes"
+								id="div_reportes_derecho_participacion_TLGB2015_2016">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/Derecho-a-la-participacion-politica-TLGB2015_2016-Promsex.jpg"
+											alt="">
+									</div>
+									<div class="oi-titulo-documento" id="reportes_derecho_participacion_TLGB2015_2016">
+										Derecho a la participación política TLGB2015_2016 Promsex</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/Derecho a la participación política TLGB2015_2016 Promsex.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_informe_EG2016">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="reportes_informe_EG2016">
+									INFORME MEDIOS DE COMUNICACION EG2016.PDF</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/INFORME MEDIOS DE COMUNICACION EG2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_juventud_afro">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="reportes_juventud_afro">
+									Participación política de la juventud afrodescendiente en el Perú_Rafael Jorge</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/Participación política de la juventud afrodescendiente en el Perú_Rafael Jorge.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_legislativa_afro">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<span class="icon-archivo-pdf"></span>
+									</div>
+									<div class="oi-titulo-documento" id="reportes_legislativa_afro">
+									Participación y representación legislativa de afroperuanos e indígenas_Rios Candelaria</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/Participación y representación Legislativa de afroperuanos e indígenas_Rios Candelaria.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_retos_mujer_transparencia">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/Retos-para-la-participacion-política-de-las-mujeres_Transparencia.jpg"
+											alt="">
+									</div>
+									<div class="oi-titulo-documento" id="reportes_retos_mujer_transparencia">
+									Retos para la participación política de las mujeres_Transparencia</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/Retos para la participación política de las mujeres_Transparencia.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 Reportes" id="div_reportes_VotoTransEleccionesG2016">
+								<div class="oi-bloque-info">
+									<div class="oi-container-libro">
+										<img src="portada/VotoTransEleccionesG2016.jpg" alt="">
+									</div>
+									<div class="oi-titulo-documento" id="reportes_VotoTransEleccionesG2016">
+										VotoTransEleccionesG2016</div>
+									<div class="center">
+										<a href="documentos/recursos/reportes/VotoTransEleccionesG2016.pdf"
+											target="_blank" class="oi-btn"><span class="icon-descargar"></span>
+											Descargar</a>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+
+
+	<footer class="oi-footer">
+		© JNE. Todos los Derechos Reservados 2020
+	</footer>
+
+		<div class="oi-fondo-pop-up" id="PopVideoRecurso">
+			<div class="oi-content-pop  oi-content-pop--medio">
+				<div class="content-close cerrarPop"  id="CerrarVideoRecurso">
+					<span class="icon-close"></span></div>
+				<div class="contenedor-video" id="divVideoRecurso">
+					<video controls id="VideoRecurso"> 					
+						<source src="documentos/recursos/Videos/Inscripción y cancelación de organizaciones políticas.mp4" type="video/mp4"> 
+					</video>					
+				</div>
+			</div>
+		</div>
+
+
+</BODY>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<script>
+
+
+	$(function () {
+		Mostrar_Materiales(true);
+
+		$('#rbtTodos').change(function () {
+			$("#txtFiltro").val('');
+			if ($(this).is(":checked")) {
+				Mostrar_Materiales(true);
+			}
+			else {
+				Mostrar_Materiales(false);
+			}
+		});
+
+		$('#rbtArtículos').change(function () {
+			if ($(this).is(":checked")){
+				$('.Articulos').show();
+			}
+			else{
+				$('.Articulos').hide();
+			}
+		});
+
+		$('#rbtBoletines').change(function () {
+			if ($(this).is(":checked"))
+				$('.Boletines').show();
+			else
+				$('.Boletines').hide();
+		});
+
+		$('#rbtVideos').change(function () {
+			if ($(this).is(":checked"))
+				$('.Videos').show();
+			else
+				$('.Videos').hide();
+		});
+
+		$('#dbtReportes').change(function () {
+			if ($(this).is(":checked"))
+				$('.Reportes').show();
+			else
+				$('.Reportes').hide();
+		});
+
+		$('#rbtMateriales_educativos').change(function () {
+			if ($(this).is(":checked"))
+				$('.Materiales_educativos').show();
+			else
+				$('.Materiales_educativos').hide();
+		});
+
+		$('#rbtLibros').change(function () {
+			if ($(this).is(":checked"))
+				$('.Libros').show();
+			else
+				$('.Libros').hide();
+		});
+
+		$("#txtFiltro").keyup(function () {
+			// Retrieve the input field text and reset the count to zero
+			var filter = $(this).val(),
+				count = 0;
+
+			// Loop through the comment list
+			$('#results div .oi-titulo-documento').each(function () {
+				// If the list item does not contain the text phrase fade it out
+				if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+					$(this).hide();
+					var filtro = $(this).attr('id');
+					if (filtro != undefined) {
+						// console.log('ocultar '+filtro);
+						var clase = 'div_' + filtro;
+						$('#' + clase).hide();
+					}
+
+				} else {
+					$(this).show();
+					var filtro = $(this).attr('id');
+					if (filtro != undefined) {
+						// console.log('MOSTRAR '+filtro);
+						var clase = 'div_' + filtro;
+						$('#' + clase).show();
+					}
+					count++;
+
+				}
+			});
+
+		});
+
+	$('#CerrarVideoRecurso').click(function(){
+		$("#VideoRecurso").trigger('pause');
+		scrollBody();
+	 });
+
+
+
+	}
+	);
+
+function Ver_Video_Recurso_click(clicked_id)
+  {
+  	var videoFile = '';
+  	if(clicked_id=='div_video_Inscripcion_cancelacion_OP')  	{
+  		videoFile = 'documentos/recursos/Videos/Inscripción y cancelación de organizaciones políticas.mp4';
+  	}
+  	else if(clicked_id=='div_video_Reformas_electorales_2015_2020')  	{
+  		videoFile = 'documentos/recursos/Videos/Reformas electorales 2015 -2020.mp4';
+  	}
+	else if(clicked_id=='div_video_Sistema_electoral')  	{
+		videoFile = 'documentos/recursos/Videos/Sistema electoral.mp4';
+	}else if(clicked_id=='div_video_mi_primer_voto')  	{		
+		videoFile = 'documentos/recursos/Videos/PODER tic toc B.mp4';
+
+	}else if(clicked_id=='div_video_2_pariedad_redes')  	{
+		videoFile = 'documentos/recursos/Videos/VIDEO 2 PARIDAD REDES.mp4';	
+	}else if(clicked_id=='div_Micro_video_observa_igualdad_1_jovenes')  	{
+		videoFile = 'documentos/recursos/Videos/MICROVIDEO OBSERVA IGUALDAD 1 JOVENES.mp4';
+	}else if(clicked_id=='div_micro_video_2_mujeres_observa')  	{
+		videoFile = 'documentos/recursos/Videos/MICROVIDEO 2 MUJERES OBSERVA HD.mp4';
+	
+	}else if(clicked_id=='div_testimonio_escuela_indigena_2')  	{
+		videoFile = 'documentos/recursos/Videos/TESTIMONIO ESCUELA INDIGENA 2 HD.mp4';	
+	}else if(clicked_id=='div_testimonio_escuela_politica_indigena_1')  	{
+		videoFile = 'documentos/recursos/Videos/TESTIMONIO ESCUELA POLITICA INDIGENA 1.mp4';
+	}else if(clicked_id=='div_Microvideo_3_discapacidad_observa')  	{
+		videoFile = 'documentos/recursos/Videos/MICROVIDEO 3 DISCAPACIDAD OBSERVA.mp4';
+	
+	}else if(clicked_id=='div_acoso_politico_actualizado')  	{
+		videoFile = 'documentos/recursos/Videos/ACOSO POLITICO ACTUALIZADO OK.mp4';	
+	}else if(clicked_id=='div_testimonio_escuela_indigena_3')  	{
+		videoFile = 'documentos/recursos/Videos/TESTIMONIO ESCUELA INDIGENA 3 HD.mp4';
+	}
+
+
+
+	$('#divVideoRecurso video source').attr('src', videoFile);
+	$("#divVideoRecurso video")[0].load();
+
+	$("#PopVideoRecurso").show();
+	$("#VideoRecurso").trigger('play');
+	scrollBody();
+  }
+
+
+	function Mostrar_Materiales(ver_) {
+		if (ver_ === true) {
+			$('#rbtTodos').prop('checked', true);
+			$('#rbtArtículos').prop('checked', true);
+			$('#rbtBoletines').prop('checked', true);
+			$('#rbtVideos').prop('checked', true);
+			$('#dbtReportes').prop('checked', true);
+			$('#rbtMateriales_educativos').prop('checked', true);
+			$('#rbtLibros').prop('checked', true);
+			$('.Articulos').show();
+			$('.Boletines').show();
+			$('.Videos').show();
+			$('.Reportes').show();
+			$('.Materiales_educativos').show();
+			$('.Libros').show();
+		}
+		else {
+			$('#rbtTodos').prop('checked', false);
+			$('#rbtArtículos').prop('checked', false);
+			$('#rbtBoletines').prop('checked', false);
+			$('#rbtVideos').prop('checked', false);
+			$('#dbtReportes').prop('checked', false);
+			$('#rbtMateriales_educativos').prop('checked', false);
+			$('#rbtLibros').prop('checked', false);
+			$('.Articulos').hide();
+			$('.Boletines').hide();
+			$('.Videos').hide();
+			$('.Reportes').hide();
+			$('.Materiales_educativos').hide();
+			$('.Libros').hide();
+		}
+	}
+
+</script>
