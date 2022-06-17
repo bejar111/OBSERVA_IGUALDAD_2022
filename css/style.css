@@ -380,8 +380,8 @@ header{
     font-size: 17px;
     margin-bottom: 10px;
     margin-top: 10px;
-    height: 48px;
-    line-height: 23px;
+    height: 50px;
+    line-height: 21px;
 }
 .oi-list-unorden{
 	display: block;
@@ -473,7 +473,7 @@ header{
 	font-size: 18px;
 	line-height: 23px;
 	color: #46404D;
-	height: 59px;
+	height: 76px;
 	display: flex;
 	align-items: center;
 }
@@ -934,6 +934,7 @@ body .color-arena{
 }
 .fondo-lineas-curvas{
 	background: #F8FBFC url(../images/fondo-lineas-curvas.png);
+	background-size: 75%;
 }
 .fondo-flor {
     background: url(../images/flor-fondo.png) no-repeat;
@@ -1260,4 +1261,30 @@ select.form-control{
 	height: 75px;
 
 }
-	
+.logo-erm{
+	width: 170px;
+	margin: 0 auto;
+}
+.logo-erm img{
+	width: 100%;
+}
+.fondo-tono2{
+	background: #ece1d7;
+}
+.juradita{
+	position: absolute;
+    z-index: 10;
+    left: -75px;
+    width: 108px;
+}
+.juradita img{
+	width: 100%;
+}
+.reporte-item-descarga{
+	border: 1.5px dashed #D04747;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+}
+.center-center{
+	display: flex;
+	align-items: center;
+}
