@@ -146,7 +146,7 @@
 									<div class="juradita"><img src="images/juradita.png"></div>
 									<div class="oi-bloque-info reporte-item-descarga">
 										<div class="oi-titulo-bloque">
-											Reporte Participación política de las mujeres en las EG 2021
+											Paridad y alternancia en las elecciones internas ERM 2022
 										</div>
 										<div class="oi-content-graficos-EG">
 											<div class="">
@@ -189,7 +189,7 @@
 								<div class="col-lg-6">
 									<div class="oi-bloque-info">
 										<div class="oi-titulo-bloque center">
-											Mujeres candidatas y electas al Congreso de la República 1995-2020
+											Mujeres candidatas y electas al Congreso de la República 1995-2021
 										</div>
 										<div class="oi-container-detalle">
 											<canvas id="ChartMujeresCongreso" width="400" height="200"></canvas>
@@ -345,7 +345,7 @@
 	    data: {
 	        labels: ['% de candidatas', '% de Electas'],
 	        datasets: [{
-	            label: 'Mujeres candidatas y electas en las EG 2021',
+	            
 	            data: [51.10, 37.70],
 	            backgroundColor: '#cca8ff',
 	            borderWidth: 0
@@ -365,6 +365,16 @@
 	                   callback: function(value){return value+ "%"}
 	                }
 	            }]
+		    },
+		    legend: {
+		    	display: false
+		    },
+		    tooltips: {
+		      	callbacks: {
+			        label: function(tooltipItem, data) {
+			          return data['datasets'][0]['data'][tooltipItem['index']] + '%';
+			        }
+		      	}
 		    }
 		}
 
@@ -373,10 +383,10 @@
 	var ChartMujeresCongreso = new Chart(document.getElementById("ChartMujeresCongreso"), {
 	    type: 'line',
 		data: {
-			labels: ["1995", "2000", "2001", "2006", "2011", "2016", "2020"],
+			labels: ["1995", "2000", "2001", "2006", "2011", "2016", "2020", "2021"],
 			datasets: [{
 				label: "% de Candidatas",
-				data: [13, 25.8, 35.7, 38.6, 39.4, 39.1, 39.6],
+				data: [13, 25.8, 35.7, 38.6, 39.4, 39.1, 39.6, 50],
 				backgroundColor: '#A7F2E8',
 				borderColor: '#A7F2E8',
 				lineTension: 0,
@@ -385,7 +395,7 @@
 				},
 				{
 				label: "% de Electas",
-				data: [12, 21.7, 18.3, 29.2, 23.3, 27.7, 25.4],
+				data: [12, 21.7, 18.3, 29.2, 23.3, 27.7, 25.4, 37.69],
 				backgroundColor: '#CCA8FF',
 				borderColor: '#CCA8FF',
 				fill: false,
@@ -403,12 +413,20 @@
 	            ticks: {
 
 	                   min: 0,
-	                   max: 50,
+	                   max: 60,
 	                   callback: function(value){return value+ "%"}
 	                }
 	            }]
+		    },
+		    tooltips: {
+		      	callbacks: {
+			        //label: function(tooltipItem, data) {
+			          //var label = data.datasets[tooltipItem.datasetIndex].label || '';
+			          //return label + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
+			        //}
+		      	}
 		    }
-			}
+		}
 	});
 
 	var ChartMujeresRegionales = new Chart(document.getElementById("ChartMujeresRegionales"), {
@@ -448,6 +466,7 @@
 	                }
 	            }]
 		    }
+
 		}
 	});
 

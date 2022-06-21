@@ -392,10 +392,10 @@
 	var ChartJovenesCongreso = new Chart(document.getElementById("ChartJovenesCongreso"),{
 	    type: 'bar',
 	    data: {
-	        labels: ['2006', '2011', '2016', '2020'],
+	        labels: ['2006', '2011', '2016', '2020','2021'],
 	        datasets: [{
 	            label: 'Evolución de candidaturas de jóvenes',
-	            data: [5.5, 5.7, 6.6, 9],
+	            data: [5.5, 5.7, 6.6, 9, 7.25],
 	            backgroundColor: '#78DAE5',
 	            borderWidth: 0
 	        }
@@ -409,7 +409,7 @@
 	            ticks: {
 
 	                   min: 0,
-	                   max: 18,
+	                   max: 14,
 	                   callback: function(value){return value+ "%"}
 	                }
 	            }]
@@ -537,10 +537,10 @@
 	var ChartJovenesAfiliados = new Chart(document.getElementById("ChartJovenesAfiliados"),{
 	    type: 'bar',
 	    data: {
-	        labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019'],
+	        labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
 	        datasets: [{
 	            label: '% de jóvenes afiliados en partidos políticos',
-	            data: [14.9, 13.5, 11, 8.8, 9.9, 9.4, 8.1, 8.2, 8.2, 7.8],
+	            data: [14.9, 13.5, 11, 8.8, 9.9, 9.4, 8.1, 8.2, 8.2, 7.8, 8.5, 8.0, 15.3],
 	            backgroundColor: '#78DAE5',
 	            borderWidth: 0
 	        }
@@ -559,17 +559,26 @@
 	                   callback: function(value){return value+ "%"}
 	                }
 	            }]
+		    },
+		    tooltips: {
+		      	callbacks: {
+			        label: function(tooltipItem, data) {
+			          var label = data.datasets[tooltipItem.datasetIndex].label || '';
+			          return label + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
+			        }
+		      	}
 		    }
+
 		}
 
 	});
 	var ChartJovenesDirigencia = new Chart(document.getElementById("ChartJovenesDirigencia"),{
 	    type: 'bar',
 	    data: {
-	        labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019'],
+	        labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2021'],
 	        datasets: [{
 	            label: '% de directivo jóvenes en partidos políticos',
-	            data: [6, 5, 2.6, 2.9, 3.7, 3.6, 3.2, 5.4, 5.9, 5.9],
+	            data: [6, 5, 2.6, 2.9, 3.7, 3.6, 3.2, 5.4, 5.9, 5.9, 6.9],
 	            backgroundColor: '#CCA8FF',
 	            borderWidth: 0
 	        }
@@ -588,6 +597,14 @@
 	                   callback: function(value){return value+ "%"}
 	                }
 	            }]
+		    },
+		    tooltips: {
+		      	callbacks: {
+			        label: function(tooltipItem, data) {
+			          var label = data.datasets[tooltipItem.datasetIndex].label || '';
+			          return label + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
+			        }
+		      	}
 		    }
 		}
 
