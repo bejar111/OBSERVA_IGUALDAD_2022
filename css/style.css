@@ -1468,13 +1468,14 @@ path:hover{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background: #CCA8FF;
     border-radius: 20px;
     height: 65px;
     color: #3D3D3D;
     font-size: 18px;
     margin-left: -100px;
+    padding-left: 15%;
 }
 .fondo-erm{
 	background: url(../images/fondo-lineas-curvas_erm.png);
