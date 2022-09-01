@@ -953,7 +953,7 @@ body .color-arena{
 .mt30{
 	margin-top: 30px;
 }
-.mt40{
+body .mt40{
 	margin-top: 40px;
 }
 .mt50{
@@ -1523,4 +1523,115 @@ path:hover{
 	top: 7px;
 	position: absolute;
 	border-radius: 100px;
+}
+.ayudante-semaforo{
+	width: 15%;
+	margin-right:3%;
+}
+.filtro-semaforo{
+	width: 82%;
+}
+.content-datos-semaforo{
+	overflow: hidden;
+}
+
+.item-bloque-semaforo{	
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #958d8d;
+	font-size: 13px;
+	line-height: 18px;
+    height: 100px;
+    position: relative;
+}
+.bloque-derecho-semaforo{
+	width: 40%;
+	float: left;
+}
+.bloque-izquierdo-semaforo{
+	overflow: hidden;
+	width: 60%;
+	padding: 0 45px;
+	position: relative;
+}
+.item-partido-semaforo{
+	width: 15%;	
+	height: 100px;
+	text-align: center;
+	padding: 10px;
+
+}
+.logo-partido-ct{
+	width: 60px;
+	margin: 0 auto;
+}
+.item-partido-semaforo img{
+	width: 100%;
+
+}
+.titulo-principal-semaforo{
+	font-weight: 500;
+	font-size: 18px;
+}
+.item-bloque-semaforo--header{	
+	border-bottom: 3px solid #dc1125;
+}
+.color-semaforo{
+	background: #6cd624;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.color-semaforo--orange{
+	background: #eca22b;
+}
+.color-semaforo--red {
+    background: #d91125;
+   }
+.bloque-izquierdo-semaforo .next-slick {
+    cursor: pointer;
+    background: none;
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: center;
+    border-bottom: 3px solid #dc1125;
+    transform: none;
+    border-radius: 0;
+    color: #DC1125;
+}
+.bloque-izquierdo-semaforo .prev-slick {
+    cursor: pointer;
+    background: none;
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: center;
+    border-bottom: 3px solid #dc1125;
+    transform: none;
+    color: #DC1125;
+    border-radius: 0;
+}
+.bloque-izquierdo-semaforo .slick-track {
+    margin: 0;
+}
+.nombre-poblacion-semaforo{
+	font-size: 18px;
+	font-weight: 500;
+	color: #DC1125;
+}
+.bloque-derecho-semaforo .item-bloque-semaforo:before{
+	content: '';
+	position: absolute;
+    width: 60px;
+    height: 1px;
+    border-bottom: 1px solid #958d8d;
+    bottom: -1px;
+    right: -60px;
 }

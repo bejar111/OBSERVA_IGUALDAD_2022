@@ -245,7 +245,24 @@
   .item-partido-tabs{
     width: 13%;
   }
+  .item-bloque-semaforo {
+    line-height: 16px;
+    font-size: 12px;
+    height: 90px;
+  }
+  .bloque-izquierdo-semaforo .prev-slick {
+    height: 90px;
+  }
+  .bloque-izquierdo-semaforo .next-slick {
+    height: 90px;
+  }
 
+.bloque-izquierdo-semaforo {
+    width: 50%;
+  }
+  .bloque-derecho-semaforo{
+  width: 50%;
+  }
 
 }
 @media (max-width: 600px) {
@@ -288,6 +305,7 @@
     font-size: 12px;
     line-height: 15px;
   }
+  
  
 
 }

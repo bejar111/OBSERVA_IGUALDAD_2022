@@ -1,0 +1,715 @@
+<HTML>
+<HEAD>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="js/main.js"></script>
+
+
+</HEAD>
+
+<BODY>
+	<div class="nombre-region"></div>
+	<header class="">
+		<div class="header-top">
+			<div class="container">
+				<div class="logo-jne">
+					<img src="images/logo-blanco.png" alt="Logo JNE/ Observa Igualdad">
+				</div>
+				<div class="header-top-idioma">
+					Español <span class="icon-down-arrow"></span>
+				</div>
+				<div class="header-top-info">
+					<div class="header-top-info-item">
+						 <div class="icono-info-item">
+						 	<span class="icon-pin"></span>
+						 </div> <div class="texto-info-item">
+						 	<span class="titulo-info-item">Dirección</span>
+						 	Jr. Lampa 946 - Lima
+						 </div>
+					</div>
+					<div class="header-top-info-item">
+						 <div class="icono-info-item">
+						 	<span class="icon-email"></span>
+						 </div> <div class="texto-info-item">
+						 	<span class="titulo-info-item">Correo electrónico:</span>
+						 	igualdadpolitica@jne.gob.pe
+						 </div>
+					</div>
+					<div class="header-top-info-item">
+						 <div class="icono-info-item">
+						 	<span class="icon-phone-call"></span>
+						 </div> <div class="texto-info-item">
+						 	<span class="titulo-info-item">Teléfono</span>
+						 	(511) 311 1700 - Anexo: 2106
+						 </div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="oi-container-nav">
+			<div class="container">
+				<div class="logo-web logo-responsive"><a href="index.html"><img src="images/logo-colores.png" alt="Logo JNE/ Observa Igualdad"></a></div>
+				<nav class="oi-container-menu">
+
+					<ul class="oi-menu-web">
+						<div class="oi-menu-cerrar"><span class="icon-close"></span></div>
+						<li><a href="index.html">Observa igualdad</a></li>
+						<li><a href="#">PARTICIPACIÓN POLÍTICA <span class="icon-down-arrow"></span></a>
+							<ul class="oi-submenu">
+								<li> <a href="mujeres.html">Mujeres</a></li>
+								<li> <a href="jovenes.html">Jóvenes</a></li>
+								<li> <a href="poblacion.html">Pueblos indígenas</a></li>
+								<li> <a href="poblacionafro.html">Población Afroperuano</a></li>
+								<li> <a href="personas.html">Personas con discapacidad</a></li>
+								<li> <a href="lgtbi.html">LGTBI</a></li>
+							</ul>
+						</li>
+						<li class="oi-menu-active"><a href="planes-gobierno.html">PLANES DE GOBIERNO</a></li>
+						<li><a class="linkAcosoPolitico">ACOSO POLÍTICO</a></li>
+						<li><a href="recursos.html">RECURSOS</a></li>
+					</ul>
+				</nav>
+				<div class="oi-menu_bar">
+					<span class="icon-menu-symbol-of-three-parallel-lines"></span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</header>
+
+	<section class="oi-banner-interno">
+		<img src="images/banner-novedades.jpg" alt="Logo JNE/ Observa Igualdad" class="img100">
+		<div class="oi-banner-titulo">
+			Planes de<br>
+			<span class="oi-banner-titulo-red">Gobierno</span>
+		</div>
+	</section>
+	<section class="oi-container-info-seccion">
+		<!--CONTENEDOR DE TABS  -->
+		<div class="oi-container-tabs oi-container-tabs--seccion">
+			<ul class="oi-tabs">
+				<li class="oi-tab-link oi-tab-active" data-tab="infoTab1">Elecciones Regionales y Municipales 2022</li>
+				<li class="oi-tab-link" data-tab="EG2021">Elecciones Generales 2021</li>
+				<li class="oi-tab-link" data-tab="Reportes">Reportes</li>
+			</ul>
+		
+			<div class="oi-container-info-tabs">
+				<div class="oi-tab-body oi-tab-active" id="infoTab1">
+					<div class="oi-bloque1">
+						<div class="container">
+							<div id="content-map-erm" class="content-map-erm" style="">
+								<div class="content-only-map ayudante-semaforo">
+									<img src="images/ayudante1.png" class="img100">
+								</div>
+								<div class="content-filtro-map filtro-semaforo">
+									<div class="titulo-erm-planes">Elecciones Regionales y Municipales 2022</div>
+									<div class="oi-bloque-info mt40">
+										<div class="reporte-item-descarga flex-wrap-oi" style="padding: 20px; ">											
+											<div class="bloque-filtro" style="width:100%; padding: 0;">
+												<div class="form-row">
+													<div class="form-group col-md-12">
+														<label for="">Región</label>
+														<select class="form-control" id="TipoPostulacion">
+															<option value="1">Lima</option>
+															<option value="2">Callao</option>
+														</select>
+													</div>
+												</div>
+												<a class="oi-btn-enlace" href="planes-gobierno.html"><span class="icon-left-arrow-1"></span> Regresar</a>
+											</div>
+										</div>												
+									</div>
+								</div>
+							</div>
+							<div class="titulo-inclusion">Texto del semáforo indentificado en elecciones</div>
+							<div class="content-datos-semaforo mt40">
+								<div>
+									<div class="bloque-derecho-semaforo">
+										<div class="item-bloque-semaforo item-bloque-semaforo--header titulo-principal-semaforo">Partido político o movimiento regional</div>
+										<div class="content-listado-semaforo">
+											<div class="item-bloque-semaforo nombre-poblacion-semaforo">Mujeres</div>
+											<div class="item-bloque-semaforo">Propone acciones concretas para prevenir y sancionar la violencia de género (familiar, contra las mujeres, etc.)</div>
+											<div class="item-bloque-semaforo">Contempla acciones específicas sobre derechos sexuales y reproductivos</div>
+											<div class="item-bloque-semaforo">Plantea medidas para garantizar el ejercicio de los derechos económicos y sociales</div>
+											<div class="item-bloque-semaforo">Otros (garantizar el acceso y participación en espacios de toma de decisiones, igualdad de género, etc.)</div>
+										</div>
+										<div class="content-listado-semaforo">
+											<div class="item-bloque-semaforo nombre-poblacion-semaforo">Jóvenes</div>
+											<div class="item-bloque-semaforo">Propone acciones concretas sobre acceso a las competencias de educación (técnico-productiva y superior), idiomas y herramientas digitales.</div>
+											<div class="item-bloque-semaforo">Plantea acciones para promover el acceso al empleo de los/las jóvenes.</div>
+											<div class="item-bloque-semaforo">Contempla medidas para fortalecer e implementar espacios de participación y representación juvenil  a nivel social, político y cultural.</div>
+											<div class="item-bloque-semaforo">Otros (fomento del deporte, prevención de actos delictivos, etc.)</div>
+										</div>
+										<div class="content-listado-semaforo">
+											<div class="item-bloque-semaforo nombre-poblacion-semaforo">Pueblos indígenas</div>
+											<div class="item-bloque-semaforo">Plantea acciones específicas de promoción de la soberanía alimentaria y economía indígena (actividades agropecuarias, fortalecimiento de capacidades y asistencia técnica para la productividad y afines)</div>
+											<div class="item-bloque-semaforo">Propone medidas positivas sobre el acceso y la efectivización de los derechos de consulta previa,  participación y consentimiento, educación intercultural, salud con pertinencia cultural, servicio de saneamiento, cultura, y mujer indígena (participación activa en todo el proceso de las medidas normativas y administrativas y políticas públicas propuestas).</div>
+											<div class="item-bloque-semaforo">Plantea medidas para concretar el reconocimiento y titulación de los territorios (saneamiento físico legal) de las comunidades campesinas, nativas y/o pueblos indígenas u originarios (respeto a la autonomía y libre determinación).</div>
+											<div class="item-bloque-semaforo">Contempla medidas para contribuir a la mitigación del cambio climático y energía renovable como política de gobierno regional.</div>
+
+											<div class="item-bloque-semaforo">Plantea acciones de protección para la defensa de los derechos de los pueblos indígenas en situación de aislamiento voluntario y contacto inicial.</div>
+											<div class="item-bloque-semaforo">Propone medidas para garantizar la participación efectiva y paritaria de las mujeres y jóvenes indígenas.</div>
+											<div class="item-bloque-semaforo">Otros (lenguas originarias, adultos mayores, etc.)</div>
+										</div>
+
+										
+									</div>
+
+									<div class="bloque-izquierdo-semaforo bloque-izquierdo-slick">
+										<div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo item-bloque-semaforo--header">
+													<div class="logo-partido-ct"><img src="images/logo_partido.png" class="img100"></div>
+												</div>
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											
+										</div>
+										<div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo item-bloque-semaforo--header">
+													<div class="logo-partido-ct"><img src="images/logo_partido.png" class="img100"></div>
+												</div>
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"> </div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+											</div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											
+										</div>
+										<div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo item-bloque-semaforo--header">
+													<div class="logo-partido-ct"><img src="images/logo_partido.png" class="img100"></div>
+												</div>
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+											</div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											
+										</div>
+										<div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo item-bloque-semaforo--header">
+													<div class="logo-partido-ct"><img src="images/logo_partido.png" class="img100"></div>
+												</div>
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+											</div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											
+										</div>
+										<div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo item-bloque-semaforo--header">
+													<div class="logo-partido-ct"><img src="images/logo_partido.png" class="img100"></div>
+												</div>
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+											</div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											
+										</div>
+										<div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo item-bloque-semaforo--header">
+													<div class="logo-partido-ct"><img src="images/logo_partido.png" class="img100"></div>
+												</div>
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+											</div>
+											<div class="content-listado-semaforo">
+												<div class="item-bloque-semaforo"></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--orange"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo"></div></div>
+												<div class="item-bloque-semaforo"><div class="color-semaforo color-semaforo--red"></div></div>
+											</div>
+											
+										</div>
+
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="oi-tab-body" id="EG2021">
+					<!--BLOQUE 1  -->
+					<div class="oi-bloque1">
+						<div class="container">
+							<h1 class="oi-titulo-secciones"> La inclusión en los planes de gobierno <span class="color-red">EG 2021</span></h1>
+							<div class="container-tabs-partidos">
+								<div class="container-item-partidos">									
+									<div class="item-partido-tabs item-partido-active" data-tab="AccionPopular"><img src="images/logo-op/accion-popular.jpg"></div>		
+									<div class="item-partido-tabs" data-tab="AlianzaProgreso"><img src="images/logo-op/alianza-progreso.png"></div>
+									<div class="item-partido-tabs" data-tab="AvanzaPais"><img src="images/logo-op/avanza-pais.jpg"></div>						
+									<div class="item-partido-tabs" data-tab="DemocraciaDirecta"><img src="images/logo-op/democracia-directa.jpg"></div>
+									<div class="item-partido-tabs" data-tab="FrenteAmplio"><img src="images/logo-op/FRENTE-AMPLIO.jpg"></div>
+									<div class="item-partido-tabs" data-tab="FuerzaPopular"><img src="images/logo-op/fuerza-popular.jpg"></div>
+									<div class="item-partido-tabs" data-tab="JuntosPeru"><img src="images/logo-op/juntos-por-el-peru.jpg"></div>
+									<div class="item-partido-tabs" data-tab="SomosPeru"><img src="images/logo-op/somosperu.jpg"></div>
+									<div class="item-partido-tabs" data-tab="PartidoMorado"><img src="images/logo-op/partido-morado.jpg"></div>				
+								</div>
+
+								<div class="container-item-partidos">									
+									<div class="item-partido-tabs" data-tab="PNacionalista"><img src="images/logo-op/NACIONALISTA-PERUANO.jpg"></div>									
+									<div class="item-partido-tabs" data-tab="PPC"><img src="images/logo-op/ppc.jpg"></div>
+									<div class="item-partido-tabs" data-tab="PeruLibre"><img src="images/logo-op/peru-libre.jpg"></div>
+									<div class="item-partido-tabs" data-tab="PatriaSegura"><img src="images/logo-op/peru-patria-segura.jpg"></div>
+									<div class="item-partido-tabs" data-tab="PodemosPeru"><img src="images/logo-op/podemos-peru.jpg"></div>				
+									<div class="item-partido-tabs" data-tab="RUNA"><img src="images/logo-op/renacimiento-unido.jpg"></div>
+									<div class="item-partido-tabs" data-tab="RenovacionPopular"><img src="images/logo-op/RENOVACION-POPULAR.jpg"></div>
+									<div class="item-partido-tabs" data-tab="UnionPeru"><img src="images/logo-op/union-peru.jpg"></div>
+									<div class="item-partido-tabs" data-tab="VictoriaNacional"><img src="images/logo-op/victoria-nacional.jpg"></div>					
+								</div>
+
+
+								<div class="content-info-tab item-partido-active" id="AccionPopular">
+										<img src="images/planes-gobierno/AccionPopular.png" class="img100">
+								</div>	
+
+								<div class="content-detalle-tabs-partidos">
+									<div class="content-info-tab" id="VictoriaNacional">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="VNPueblo">Pueblos Indígenas</div>
+												<div class="tab-link-subtab" data-tab="VNPoblaVulne">Población Vulnerable</div>
+												<div class="tab-link-subtab" data-tab="VNJovenes">Jóvenes</div>
+												<div class="tab-link-subtab" data-tab="VNMujeres">Mujeres</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="VNPueblo">
+													<img src="images/planes-gobierno/VictoriaNacional_PUEBLOS-INDIGENAS.png">					
+												</div>
+												<div class="info-detalle-subtab" id="VNPoblaVulne">
+													<img src="images/planes-gobierno/VictoriaNacional_POBLACIONES.png">
+												</div>
+												<div class="info-detalle-subtab" id="VNJovenes">
+													<img src="images/planes-gobierno/VictoriaNacional_JUVENTUDES.png">
+												</div>
+												<div class="info-detalle-subtab" id="VNMujeres">
+													<img src="images/planes-gobierno/VictoriaNacional_MUJERES.png">
+												</div>												
+											</div>											
+										</div>										
+									</div>
+
+									<div class="content-info-tab" id="UnionPeru">
+										<img src="images/planes-gobierno/UnionPeru.png" class="img100">
+									</div>
+									<div class="content-info-tab" id="SomosPeru">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="SPPueblo">Pueblos Indígenas</div>
+												<div class="tab-link-subtab" data-tab="SPJovenes">Jóvenes</div>
+												<div class="tab-link-subtab" data-tab="SPMujeres">Mujeres</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="SPPueblo">
+													<img src="images/planes-gobierno/SomosPeru-PUEBLOS-INDIGENAS.png">					
+												</div>
+												<div class="info-detalle-subtab" id="SPJovenes">
+													<img src="images/planes-gobierno/SomosPeru-JUVENTUDES.png">
+												</div>
+												<div class="info-detalle-subtab" id="SPMujeres">
+													<img src="images/planes-gobierno/SomosPeru-MUJERES.png">
+												</div>											
+											</div>											
+										</div>										
+									</div>	
+									<div class="content-info-tab" id="PodemosPeru">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="PPJovenes">Jóvenes</div>
+												<div class="tab-link-subtab" data-tab="PPMujeres">Población Vulnerable</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="PPJovenes">
+													<img src="images/planes-gobierno/PodemosPeru_JUVENTUDES.png">					
+												</div>
+												<div class="info-detalle-subtab" id="PPMujeres">
+													<img src="images/planes-gobierno/PodemosPeru_MUJERES.png">
+												</div>										
+											</div>											
+										</div>										
+									</div>
+									<div class="content-info-tab" id="RUNA">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="RUNAGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="RUNAPueblo">Pueblos Indígenas</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="RUNAGeneral">
+													<img src="images/planes-gobierno/RUNA-GENERAL.png">					
+												</div>
+												<div class="info-detalle-subtab" id="RUNAPueblo">
+													<img src="images/planes-gobierno/RUNA_PUEBLOS INDÍGENAS.png">
+												</div>										
+											</div>											
+										</div>										
+									</div>
+									<div class="content-info-tab" id="RenovacionPopular">
+										<img src="images/planes-gobierno/Renovacion-popular.png" class="img100">
+									</div>	
+									<div class="content-info-tab" id="PatriaSegura">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="PPSGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="PPSPueblo">Jóvenes</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="PPSGeneral">
+													<img src="images/planes-gobierno/Peru-Patria-Segura_general.png">					
+												</div>
+												<div class="info-detalle-subtab" id="PPSPueblo">
+													<img src="images/planes-gobierno/Peru-Patria-Segura_JUVENTUDES.png">
+												</div>										
+											</div>											
+										</div>										
+									</div>	
+									<div class="content-info-tab" id="PPC">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="PPCGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="PPCJovenes">Jóvenes</div>
+												<div class="tab-link-subtab" data-tab="PPCMujeres">Mujeres</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="PPCGeneral">
+													<img src="images/planes-gobierno/PPC_GENERAL.png">					
+												</div>
+												<div class="info-detalle-subtab" id="PPCJovenes">
+													<img src="images/planes-gobierno/PPC_juventudes.png">
+												</div>	
+												<div class="info-detalle-subtab" id="PPCMujeres">
+													<img src="images/planes-gobierno/PPC_Mujeres.png">
+												</div>										
+											</div>											
+										</div>										
+									</div>	
+									<div class="content-info-tab" id="PNacionalista">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="PNGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="PNMujeres">Mujeres</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="PNGeneral">
+													<img src="images/planes-gobierno/Partido-Nacionalista-General.png">					
+												</div>
+												<div class="info-detalle-subtab" id="PNMujeres">
+													<img src="images/planes-gobierno/Partido-Nacionalista_Mujeres.png">
+												</div>										
+											</div>											
+										</div>										
+									</div>
+									<div class="content-info-tab" id="PartidoMorado">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="PMoradoGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="PMoradoNMujeres">Mujeres</div>
+												<div class="tab-link-subtab" data-tab="PMoradoPueblos">Pueblos Indígenas</div>
+												<div class="tab-link-subtab" data-tab="PMoradoJovenes">Jóvenes</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="PMoradoGeneral">
+													<img src="images/planes-gobierno/PartidoMorado_GENERAL.png">					
+												</div>
+												<div class="info-detalle-subtab" id="PMoradoNMujeres">
+													<img src="images/planes-gobierno/PartidoMorado_MUJERES.png">
+												</div>
+												<div class="info-detalle-subtab" id="PMoradoPueblos">
+													<img src="images/planes-gobierno/PartidoMorado_indIgenas.png">
+												</div>
+												<div class="info-detalle-subtab" id="PMoradoJovenes">
+													<img src="images/planes-gobierno/PartidoMorado_juventudes.png">
+												</div>										
+											</div>											
+										</div>										
+									</div>
+									<div class="content-info-tab" id="JuntosPeru"> 
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="JuntoPeruMujeres">Mujeres</div>
+												<div class="tab-link-subtab" data-tab="JuntoPeruJovenes">Jóvenes</div>
+												<div class="tab-link-subtab" data-tab="JuntoPeruPueblos">Pueblos Indígenas</div>
+												<div class="tab-link-subtab" data-tab="JuntoPeruAfroperuano">Población Afroperuana</div>
+												<div class="tab-link-subtab" data-tab="JuntoPeruLGTBIQ">LGTBIQ</div>
+												<div class="tab-link-subtab" data-tab="JuntoPeruDiscapacidad">Personas con discapacidad</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="JuntoPeruMujeres">
+													<img src="images/planes-gobierno/Juntos-MUJERES.png">					
+												</div>
+												<div class="info-detalle-subtab" id="JuntoPeruJovenes">
+													<img src="images/planes-gobierno/Juntos-JUVENTUDES.png">
+												</div>
+												<div class="info-detalle-subtab" id="JuntoPeruPueblos">
+													<img src="images/planes-gobierno/Juntos-PUEBLOS-INDIGENAS.png">
+												</div>
+												<div class="info-detalle-subtab" id="JuntoPeruAfroperuano">
+													<img src="images/planes-gobierno/Juntos_AFROPERUANO.png">
+												</div>
+												<div class="info-detalle-subtab" id="JuntoPeruLGTBIQ">
+													<img src="images/planes-gobierno/Juntos-LGTBIQ.png">
+												</div>
+												<div class="info-detalle-subtab" id="JuntoPeruDiscapacidad">
+													<img src="images/planes-gobierno/Juntos-DISCAPACIDAD.png">
+												</div>
+
+											</div>											
+										</div>										
+									</div>	
+									<div class="content-info-tab" id="FuerzaPopular">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="FPGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="FPNMujeres">Mujeres</div>
+												<div class="tab-link-subtab" data-tab="FPJovenes">Jóvenes</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="FPGeneral">
+													<img src="images/planes-gobierno/FuerzaPopular_GENERAL.png">					
+												</div>
+												<div class="info-detalle-subtab" id="FPNMujeres">
+													<img src="images/planes-gobierno/FuerzaPopular_MUJERES.png">
+												</div>
+												<div class="info-detalle-subtab" id="FPJovenes">
+													<img src="images/planes-gobierno/FuerzaPopular_JUVENTUD.png">
+												</div>									
+											</div>											
+										</div>										
+									</div>
+									<div class="content-info-tab" id="AlianzaProgreso">
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="AliProGeneral">General</div>
+												<div class="tab-link-subtab" data-tab="AliProJovenes">Jóvenes</div>
+												<div class="tab-link-subtab" data-tab="AliProPueblos">Pueblos Indígenas</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="AliProGeneral">
+													<img src="images/planes-gobierno/ALIANZA-PROGRESO-GENERAL.png">					
+												</div>
+												<div class="info-detalle-subtab" id="AliProJovenes">
+													<img src="images/planes-gobierno/ALIANZA-PROGRESO-JUVENTUD.png">
+												</div>
+												<div class="info-detalle-subtab" id="AliProPueblos">
+													<img src="images/planes-gobierno/ALIANZA-PROGRESO-INDIGENAS.png">
+												</div>									
+											</div>											
+										</div>										
+									</div>
+									<div class="content-info-tab" id="FrenteAmplio"> 
+										<div class="content-sub-tab">
+											<div class="content-item-subtab">
+												<div class="tab-link-subtab subtab-active" data-tab="FAMujeres">Mujeres</div>
+												<div class="tab-link-subtab" data-tab="FAJovenes">Jóvenes y LGTBIQ</div>
+												<div class="tab-link-subtab" data-tab="FAPueblos">Pueblos Indígenas</div>
+												<div class="tab-link-subtab" data-tab="FAfroperuano">Población Afroperuana</div>
+												<div class="tab-link-subtab" data-tab="FADiscapacidad">Personas con discapacidad</div>
+											</div>
+											<div class="content-detalle-subtab">
+												<div class="info-detalle-subtab subtab-active" id="FAMujeres">
+													<img src="images/planes-gobierno/FrenteAmplio_MUJERES.png">					
+												</div>
+												<div class="info-detalle-subtab" id="FAJovenes">
+													<img src="images/planes-gobierno/FrenteAmplio_JUVENTUDES-LGTBI.png">
+												</div>
+												<div class="info-detalle-subtab" id="FAPueblos">
+													<img src="images/planes-gobierno/FrenteAmplio_INDIGENAS.png">
+												</div>
+												<div class="info-detalle-subtab" id="FAfroperuano">
+													<img src="images/planes-gobierno/FrenteAmplio_AFROPERUANA.png">
+												</div>
+												<div class="info-detalle-subtab" id="FADiscapacidad">
+													<img src="images/planes-gobierno/FrenteAmplio_Discapacidad.png">
+												</div>
+											</div>											
+										</div>										
+									</div>	
+
+
+									<div class="content-info-tab" id="PeruLibre">
+										<img src="images/planes-gobierno/PeruLibre.png" class="img100">
+									</div>	
+									<div class="content-info-tab" id="DemocraciaDirecta">
+										<img src="images/planes-gobierno/DemocraciaDirecta.png" class="img100">
+									</div>	
+									<div class="content-info-tab" id="DemocraciaDirecta">
+										<img src="images/planes-gobierno/DemocraciaDirecta.png" class="img100">
+									</div>	
+									<div class="content-info-tab" id="AvanzaPais">
+										<img src="images/planes-gobierno/AvanzaPais.png" class="img100">
+									</div>	
+														
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="oi-tab-body" id="Reportes">
+					 <div class="oi-bloque1">
+						<div class="container">
+							<div class="row justify-center">
+
+								<div class="col-lg-3">
+									<div class="oi-bloque-info">
+										<div class="oi-container-libro">
+											<span class="icon-archivo-pdf"></span>
+										</div>
+										<div class="oi-titulo-documento">La inclusión de los planes de gobierno en las Elecciones Generales 2021</div>
+										<div class="center">
+											<a href="documentos/recursos/Reportes/REPORTE F DE PLANES DE GOBIERNO.pdf" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-3">
+									<div class="oi-bloque-info">
+										<div class="oi-container-libro">
+											<span class="icon-archivo-pdf"></span>
+										</div>
+										<div class="oi-titulo-documento">Planes de gobierno ERM 2018</div>
+										<div class="center">
+											<a href="https://drive.google.com/drive/u/2/folders/1FQnT_vv_hBlj0ooPZlotel8U53YqwZwY" target="_blank" class="oi-btn"><span class="icon-descargar"></span> Descargar</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</section>
+
+
+	<footer class="oi-footer">
+		© JNE. Todos los Derechos Reservados 2020
+	</footer>
+</BODY>
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    $('.item-partido-tabs').click(function(){
+			var tab_id = $(this).attr('data-tab');
+			$(this).siblings().removeClass('item-partido-active');
+			$(this).parents(".container-tabs-partidos").find('.content-info-tab').removeClass('item-partido-active');
+			$(this).addClass('item-partido-active');
+			$("#"+tab_id).addClass('item-partido-active');
+		});
+		 $('.tab-link-subtab').click(function(){
+			var tab_id = $(this).attr('data-tab');
+			$(this).siblings().removeClass('subtab-active');
+			$(this).parents(".content-sub-tab").find('.info-detalle-subtab').removeClass('subtab-active');
+			$(this).addClass('subtab-active');
+			$("#"+tab_id).addClass('subtab-active');
+		});
+		 $('.bloque-izquierdo-slick').slick({
+		infinite: false,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		infinite: true,
+        //AÑADIR A TODOS LOS SLICK PREVARROW Y NEXTARROW
+
+        responsive: [
+		    
+		    {
+		      breakpoint: 1024,
+		      	settings: {
+		       slidesToShow: 3,
+		      }
+		    },
+		    {
+		      breakpoint: 767,
+		      	settings: {
+		       slidesToShow: 1,
+		      }
+		    }
+	
+		  ]
+		});
+
+	
+
+
+
+	});	
+	
+
+
+
+</script>
+
