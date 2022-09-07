@@ -1538,12 +1538,13 @@ path:hover{
 .item-bloque-semaforo{	
 	padding: 10px;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	border-bottom: 1px solid #958d8d;
 	font-size: 13px;
 	line-height: 18px;
-    height: 100px;
+    height: 130px;
     position: relative;
+    justify-content: center;
 }
 .bloque-derecho-semaforo{
 	width: 40%;
@@ -1557,7 +1558,7 @@ path:hover{
 }
 .item-partido-semaforo{
 	width: 15%;	
-	height: 100px;
+	height: 130px;
 	text-align: center;
 	padding: 10px;
 
@@ -1608,7 +1609,7 @@ path:hover{
     cursor: pointer;
     background: none;
     width: 45px;
-    height: 100px;
+    height: 130px;
     position: absolute;
     left: 0;
     top: 0;
@@ -1625,6 +1626,8 @@ path:hover{
 	font-size: 18px;
 	font-weight: 500;
 	color: #DC1125;
+	margin-bottom: 15px;
+	height: 55px;
 }
 .bloque-derecho-semaforo .item-bloque-semaforo:before{
 	content: '';
