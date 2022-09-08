@@ -248,20 +248,59 @@
   .item-bloque-semaforo {
     line-height: 16px;
     font-size: 12px;
-    height: 90px;
-  }
-  .bloque-izquierdo-semaforo .prev-slick {
-    height: 90px;
-  }
-  .bloque-izquierdo-semaforo .next-slick {
-    height: 90px;
+    height: 372px;
   }
 
+
 .bloque-izquierdo-semaforo {
-    width: 50%;
+    width: 40%;
   }
   .bloque-derecho-semaforo{
-  width: 50%;
+  width: 60%;
+  }
+  .content-only-map{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-filtro-map {
+    width: 100%;
+  }
+  .bloque-filtro{
+    width: 100%;
+  }
+  .content-img-ayudante {
+    margin: 0 auto;
+  }
+  .detalle-propuesta-partido{
+    width: 100%;
+     float: none;
+  }
+  .logo-partido-propuesta{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    float: none;
+  }
+  .descripcion-tipo-inclusion{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .content-img-titulo-poblacion{
+    display: block;
+  }
+  .img-inclusion{
+    margin: 0 auto;
+  }
+  .titulo-poblacion{
+    display: block;
+    height: auto;
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  .titulo-bloque-planes{
+    width: 100%;
+
   }
 
 }
@@ -305,8 +344,31 @@
     font-size: 12px;
     line-height: 15px;
   }
-  
- 
+  .logo-partido-ct{
+  }
+  .bloque-izquierdo-semaforo{
+    padding:0 20px;
+  }
+  .bloque-izquierdo-semaforo .prev-slick{
+    width: 20px;
+  }
+  .bloque-izquierdo-semaforo .next-slick {
+    width: 20px;
+  }
+  .content-map-erm{
+    display: block;
+    padding: 0;
+  }
+  .ayudante-semaforo{
+    display: none;
+  }
+ .filtro-semaforo {
+    width: 100%;
+  }
+  .titulo-erm-planes{
+    min-width: 100%;
+    height: auto;
+  }
 
 }
 

@@ -1509,12 +1509,12 @@ path:hover{
 }
 .texto-propuesta{
 	margin-bottom: 0;
-	padding-left: 25px;
 	display: block;
 	position: relative;
 	color: #3D3D3D;
 }
 .texto-propuesta:before{
+	display: none;
 	width: 10px;
 	height: 10px;
 	content: '';
@@ -1542,7 +1542,7 @@ path:hover{
 	border-bottom: 1px solid #958d8d;
 	font-size: 13px;
 	line-height: 18px;
-    height: 130px;
+	height: 250px;
     position: relative;
     justify-content: center;
 }
@@ -1576,7 +1576,9 @@ path:hover{
 	font-size: 18px;
 }
 .item-bloque-semaforo--header{	
-	border-bottom: 3px solid #dc1125;
+	border-bottom: 3px solid #dc1125;	
+    height: 85px !important;
+
 }
 .color-semaforo{
 	background: #6cd624;
@@ -1595,7 +1597,7 @@ path:hover{
     cursor: pointer;
     background: none;
     width: 45px;
-    height: 100px;
+    height: 85px;
     position: absolute;
     right: 0;
     top: 0;
@@ -1609,7 +1611,7 @@ path:hover{
     cursor: pointer;
     background: none;
     width: 45px;
-    height: 130px;
+    height: 85px;
     position: absolute;
     left: 0;
     top: 0;
@@ -1627,7 +1629,6 @@ path:hover{
 	font-weight: 500;
 	color: #DC1125;
 	margin-bottom: 15px;
-	height: 55px;
 }
 .bloque-derecho-semaforo .item-bloque-semaforo:before{
 	content: '';
@@ -1637,4 +1638,21 @@ path:hover{
     border-bottom: 1px solid #958d8d;
     bottom: -1px;
     right: -60px;
+}
+.content-listado-semaforo:last-child .item-bloque-semaforo{
+	border-bottom: 0;
+}
+
+.bloque-derecho-semaforo .item-bloque-semaforo--header:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    border-bottom: 3px solid #dc1125;
+    bottom: -3px;
+    right: -60px;
+}
+.content-semaforo-filtro{
+	max-width: 800px;
+	margin: 0 auto;
 }
