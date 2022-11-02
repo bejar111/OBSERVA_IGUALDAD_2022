@@ -1665,3 +1665,4 @@ path:hover{
     margin-bottom: 55px;
     text-align: center;
 }
+.no-hover{pointer-events: none;}
