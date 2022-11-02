@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	// var linkAcosoPolitico= URL_WEB_OBSERVA_IGUALDAD+"/AcosoPolitico/RegistroWeb_Acoso";
 	var linkAcosoPolitico= URL_WEB_OBSERVA_IGUALDAD+"/AcosoPolitico/RegistroWeb_Acoso_Municipales";
 	var linkAutoidentificate=URL_WEB_OBSERVA_IGUALDAD+"/autoidentificate/";
-	
+	var linkPlanesGobierno= URL_WEB_OBSERVA_IGUALDAD+"/PlanesGobierno/planes_gobierno";
 
 	$( ".cerrarPop" ).click(function() {
 	  	$(this).parents(".oi-fondo-pop-up").hide();
@@ -176,6 +176,7 @@ $( document ).ready(function() {
 
     $(".linkAcosoPolitico").attr("href", linkAcosoPolitico);
     $(".linkAutoidentificate").attr("href", linkAutoidentificate);
+	$(".linkPlanesGobierno").attr("href", linkPlanesGobierno);
 
 
 });
