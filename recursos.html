@@ -1148,6 +1148,16 @@
             return soloLetraYespacio(event, 'car')
         }
 
+        $("#txtFiltro").on('paste', function(e){
+            e.preventDefault();
+        })
+        
+        // $("#txtFiltro").on('copy', function(e){
+        //     e.preventDefault();
+        //     alert('Esta acción está prohibida');
+        // })
+
+    
 
     });
 
