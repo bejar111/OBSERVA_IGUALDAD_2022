@@ -487,6 +487,15 @@ header{
 	display: flex;
 	align-items: center;
 }
+.oi-title-noticia-plus{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+	color: #46404D;
+	height: 116px;
+	display: flex;
+	align-items: center;
+}
 .oi-title-detalle-noticia{
 	font-weight: 500;
 	font-size: 20px;
