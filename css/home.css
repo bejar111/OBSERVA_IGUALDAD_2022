@@ -146,7 +146,7 @@
 .oi-seccion-nosotros{
 	margin-top: -139px;
     padding-top: 180px;
-	background: url(../images/fondo-lineas-curvas.png);
+	background: url(../images_css/fondo-lineas-curvas.png);
 }
 .oi-container--nosotros{
 	display: flex;

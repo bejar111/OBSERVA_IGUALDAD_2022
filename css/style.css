@@ -444,7 +444,7 @@ header{
 
 .oi-seccion-novedades{
 	padding: 80px 0 80px 0;
-	background: #302C37 url(../images/fondo2.png);
+	background: #302C37 url(../images_css/fondo2.png);
 }
 .oi-slick-novedades{
 	margin-top: 60px;
@@ -952,11 +952,11 @@ body .color-arena{
 	background: #D04747;
 }
 .fondo-lineas-curvas{
-	background: #F8FBFC url(../images/fondo-lineas-curvas.png);
+	background: #F8FBFC url(../images_css/fondo-lineas-curvas.png);
 	background-size: 75%;
 }
 .fondo-flor {
-    background: url(../images/flor-fondo.png) no-repeat;
+    background: url(../images_css/flor-fondo.png) no-repeat;
     background-position: top right;
 }
 /*MARGENES*/

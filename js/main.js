@@ -1,7 +1,7 @@
 //var URL_WEB_OBSERVA_IGUALDAD='https://localhost:44322'; // URL Web Producción-SAE
 var URL_WEB_OBSERVA_IGUALDAD='https://saednef.jne.gob.pe'; // URL Web Producción-SAE
 //var URL_WEB_OBSERVA_IGUALDAD='https://calsaednef.jne.gob.pe'; // URL Web CalidadS-SAE (solo cambiar para el entorno de pruebas)
-
+var urlFileServer = 'file:///C:/FILE_SERVER/DNEF/OBSERVA_IGUALDAD/';
 
 $( document ).ready(function() {
 	scrollBody();
@@ -188,3 +188,17 @@ function scrollBody() {
 	  	$("body").css("overflow-y", "auto");
 	}
 }
+
+function retorna_ruta_imagen(val) {
+	var a = document.body.getElementsByTagName('IMG');
+	var img = a?a[a.length-1]:0;
+	if (img) 
+		img.src = urlFileServer+val;	
+}
+
+
+function retorna_ruta_archivo(val) {
+	var newurl = urlFileServer+val;
+	// location.href = newurl;
+	window.open(newurl, '_blank');
+  }
