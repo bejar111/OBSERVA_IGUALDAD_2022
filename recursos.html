@@ -1089,7 +1089,8 @@
                 <span class="icon-close"></span></div>
             <div class="contenedor-video" id="divVideoRecurso">
                 <video controls id="VideoRecurso"> 					
-						<source src="documentos/recursos/Videos/Inscripción y cancelación de organizaciones políticas.mp4" type="video/mp4"> 
+						<!-- <source src="documentos/recursos/Videos/Inscripción y cancelación de organizaciones políticas.mp4" type="video/mp4">  -->
+                        <source src="" type="video/mp4"> 
 					</video>
             </div>
         </div>
@@ -1213,32 +1214,32 @@
     function Ver_Video_Recurso_click(clicked_id) {
         var videoFile = '';
         if (clicked_id == 'div_video_Inscripcion_cancelacion_OP') {
-            videoFile = 'documentos/recursos/Videos/Inscripción y cancelación de organizaciones políticas.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/Inscripcion y cancelacion de organizaciones politicas.mp4';
         } else if (clicked_id == 'div_video_Reformas_electorales_2015_2020') {
-            videoFile = 'documentos/recursos/Videos/Reformas electorales 2015 -2020.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/Reformas electorales 2015 -2020.mp4';
         } else if (clicked_id == 'div_video_Sistema_electoral') {
-            videoFile = 'documentos/recursos/Videos/Sistema electoral.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/Sistema electoral.mp4';
         } else if (clicked_id == 'div_video_mi_primer_voto') {
-            videoFile = 'documentos/recursos/Videos/PODER tic toc B.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/PODER tic toc B.mp4';
 
         } else if (clicked_id == 'div_video_2_pariedad_redes') {
-            videoFile = 'documentos/recursos/Videos/VIDEO 2 PARIDAD REDES.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/VIDEO 2 PARIDAD REDES.mp4';
         } else if (clicked_id == 'div_Micro_video_observa_igualdad_1_jovenes') {
-            videoFile = 'documentos/recursos/Videos/MICROVIDEO OBSERVA IGUALDAD 1 JOVENES.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/MICROVIDEO OBSERVA IGUALDAD 1 JOVENES.mp4';
         } else if (clicked_id == 'div_micro_video_2_mujeres_observa') {
-            videoFile = 'documentos/recursos/Videos/MICROVIDEO 2 MUJERES OBSERVA HD.mp4';
+            videoFile =urlFileServer+ 'documentos/recursos/Videos/MICROVIDEO 2 MUJERES OBSERVA HD.mp4';
 
         } else if (clicked_id == 'div_testimonio_escuela_indigena_2') {
-            videoFile = 'documentos/recursos/Videos/TESTIMONIO ESCUELA INDIGENA 2 HD.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/TESTIMONIO ESCUELA INDIGENA 2 HD.mp4';
         } else if (clicked_id == 'div_testimonio_escuela_politica_indigena_1') {
-            videoFile = 'documentos/recursos/Videos/TESTIMONIO ESCUELA POLITICA INDIGENA 1.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/TESTIMONIO ESCUELA POLITICA INDIGENA 1.mp4';
         } else if (clicked_id == 'div_Microvideo_3_discapacidad_observa') {
-            videoFile = 'documentos/recursos/Videos/MICROVIDEO 3 DISCAPACIDAD OBSERVA.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/MICROVIDEO 3 DISCAPACIDAD OBSERVA.mp4';
 
         } else if (clicked_id == 'div_acoso_politico_actualizado') {
-            videoFile = 'documentos/recursos/Videos/ACOSO POLITICO ACTUALIZADO OK.mp4';
+            videoFile =urlFileServer+'documentos/recursos/Videos/ACOSO POLITICO ACTUALIZADO OK.mp4';
         } else if (clicked_id == 'div_testimonio_escuela_indigena_3') {
-            videoFile = 'documentos/recursos/Videos/TESTIMONIO ESCUELA INDIGENA 3 HD.mp4';
+            videoFile = urlFileServer+'documentos/recursos/Videos/TESTIMONIO ESCUELA INDIGENA 3 HD.mp4';
         }
 
 
