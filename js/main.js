@@ -1,7 +1,11 @@
 //var URL_WEB_OBSERVA_IGUALDAD='https://localhost:44322'; // URL Web Producción-SAE
 var URL_WEB_OBSERVA_IGUALDAD='https://saednef.jne.gob.pe'; // URL Web Producción-SAE
 //var URL_WEB_OBSERVA_IGUALDAD='https://calsaednef.jne.gob.pe'; // URL Web CalidadS-SAE (solo cambiar para el entorno de pruebas)
-var urlFileServer = 'file:///C:/FILE_SERVER/DNEF/OBSERVA_IGUALDAD/';
+
+var urlFileServer = '../ObigdDocumentos/';
+// var urlFileServer = 'file://srvportal2012/ObigdDocumentos$/';
+
+
 
 $( document ).ready(function() {
 	scrollBody();
